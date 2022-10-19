@@ -1,0 +1,1 @@
+import{a as o,o as t,b as r,e as s}from"./entry.6f6d2a10.js";const n={mounted(){const e=new Worker(""+new URL("artoolkit_worker.04fc381a.js",import.meta.url).href,{type:"module"});console.log("Mounted",self),e.postMessage("load")}},c=s("h1",null,"Brochure",-1),a=[c];function l(e,_,d,u,p,f){return t(),r("div",null,a)}const m=o(n,[["render",l]]);export{m as default};
