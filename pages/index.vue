@@ -1,5 +1,5 @@
 <template>
-  <h1>Hello World!</h1>
+  <Brochure />
 </template>
 
 <script lang="ts">
