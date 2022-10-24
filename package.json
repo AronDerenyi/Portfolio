@@ -1,25 +1,18 @@
 {
-  "name": "portfolio",
-  "version": "1.0.0",
   "private": true,
   "scripts": {
-    "dev": "nuxt",
     "build": "nuxt build",
-    "start": "nuxt start",
-    "generate": "nuxt generate"
-  },
-  "dependencies": {
-    "core-js": "^3.19.3",
-    "nuxt": "^2.15.8",
-    "vue": "^2.6.14",
-    "vue-server-renderer": "^2.6.14",
-    "vue-template-compiler": "^2.6.14",
-    "webpack": "^4.46.0"
+    "dev": "nuxt dev --address 192.168.0.213 --port=8001",
+    "generate": "nuxt generate",
+    "preview": "nuxt preview",
+    "postinstall": "nuxt prepare"
   },
   "devDependencies": {
-    "@nuxt/types": "^2.15.8",
-    "@nuxt/typescript-build": "^2.1.0",
-    "@nuxtjs/tailwindcss": "^4.2.1",
-    "postcss": "^8.4.4"
+    "nuxt": "3.0.0-rc.12"
+  },
+  "dependencies": {
+    "@types/three": "^0.144.0",
+    "@webarkit/jsartoolkit-nft": "^1.1.5",
+    "three": "^0.145.0"
   }
 }
